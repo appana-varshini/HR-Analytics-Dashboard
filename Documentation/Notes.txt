@@ -1,0 +1,175 @@
+HR Analytics Dashboard
+======================
+
+Data Quality Findings
+---------------------
+Dataset Size
+Total Records: 1470
+
+Insight:
+Dataset contains 1,470 employee records available for analysis.
+
+
+Missing Data Validation
+-----------------------
+
+Attrition Count: 		1470
+MonthlyIncome Count: 	1470
+
+Insight:
+No missing values found in Attrition.
+No missing values found in MonthlyIncome.
+Dataset is suitable for HR analytics and KPI reporting.
+
+
+Attrition Analysis
+------------------
+
+Total Employees: 	1470
+Employees Left: 	237
+Attrition Rate: 	16.12%
+
+Business Interpretation:
+Approximately 16% of employees have left the company.
+Employee attrition is a critical HR KPI because high turnover can increase recruitment costs, reduce productivity, and impact organizational stability.
+
+
+Department Distribution
+-----------------------
+
+Department                 	Employee Count
+Research & Development     	961
+Sales                      		446
+Human Resources             	63
+
+Insights:
+Research & Development is the largest department, representing the majority of employees.
+Sales is the second-largest department.
+Human Resources is the smallest department.
+Department size alone does not indicate attrition risk; attrition analysis by department is required.
+
+Department Attrition Analysis
+-----------------------------
+
+Department               		Employees   	Left   	Attrition Rate
+Sales                   		 446         		92     	20.63%
+Human Resources           	 63         		12     	19.05%
+Research & Development   	961        		133     	13.84%
+
+Insights:
+Sales has the highest attrition rate in the organization.
+Approximately 1 in 5 Sales employees leave the company.
+Research & Development has the lowest attrition rate despite being the largest department.
+This suggests that employee retention challenges are more significant in Sales than in other departments.
+
+OverTime Attrition Analysis
+---------------------------
+
+OverTime   	Employees   	Left   	Attrition Rate
+Yes           		416      		127      	30.53%
+No           		1054      		110      	10.44%
+
+Insights:
+Employees working overtime have the highest attrition rate.
+Approximately 31% of employees working overtime leave the company.
+Employees working overtime are nearly three times more likely to leave than employees who do not work overtime.
+This suggests that workload, stress, or work-life balance issues may be contributing to employee turnover.
+
+Income vs Attrition Analysis
+----------------------------
+
+Attrition Status     Average Monthly Income
+Stayed                    6832
+Left                        4787
+
+Insights:
+Employees who left the company earned significantly less on average than employees who stayed.
+The average monthly income of employees who left is approximately $2,045 lower than employees who remained with the company.
+Compensation may be a contributing factor to employee attrition.
+
+Job Satisfaction Analysis
+-------------------------
+
+Job Satisfaction   	Employees   Left   Attrition Rate
+
+1                  	289               66      22.84%
+
+2                  	280              46      16.43%
+
+3                  	442              73      16.52%
+
+4                  459         52      11.33%
+
+Insights:
+
+Employees with the lowest job satisfaction experience the highest attrition rate.
+Employees with the highest job satisfaction experience the lowest attrition rate.
+The attrition rate decreases as job satisfaction increases, suggesting that employee satisfaction is strongly associated with employee retention.
+
+Work-Life Balance Analysis
+--------------------------
+
+Work-Life Balance   	Employees   	Left   Attrition Rate
+
+1                    	80         		25      31.25%
+
+2                   	344         		58      16.86%
+
+3                   	893        		127     14.22%
+
+4                   	153         		27      17.65%
+
+Insights:
+
+Employees reporting the lowest work-life balance have the highest attrition rate.
+Approximately 31% of employees with poor work-life balance leave the company.
+The findings support the earlier overtime analysis and suggest that workload and employee well-being are important drivers of attrition.
+
+Gender Analysis
+---------------
+
+Gender     Employees   Left   Attrition Rate
+
+Male           882            150      17.01%
+
+Female       588              87      14.80%
+
+Insights:
+
+Male employees exhibit a slightly higher attrition rate than female employees.
+The difference in attrition rates is relatively small compared with factors such as overtime, job satisfaction, and work-life balance.
+Gender does not appear to be a primary driver of attrition in this dataset.
+
+Job Role Attrition Analysis
+---------------------------
+
+Job Role                         Attrition Rate
+
+Sales Representative            39.76%
+Laboratory Technician          23.94%
+Human Resources                 23.08%
+Sales Executive                    17.48%
+Research Scientist                16.10%
+Manufacturing Director        6.90%
+Healthcare Representative     6.87%
+Manager                                4.90%
+Research Director                 2.50%
+
+Insights:
+
+Sales Representatives experience the highest attrition rate in the organization.
+Nearly 40% of Sales Representatives leave the company.
+Laboratory Technicians and Human Resources employees also experience above-average attrition.
+Research Directors and Managers exhibit the lowest attrition rates, indicating stronger employee retention among senior-level roles.
+
+Tenure Analysis
+---------------
+
+Attrition Status     Average Years At Company
+Stayed                        7
+Left                            5
+
+Insights:
+Employees who leave the company generally have shorter tenure than employees who remain.
+The average tenure of employees who leave is approximately two years lower than employees who stay.
+Employee retention initiatives may be particularly important during the early years of employment.
